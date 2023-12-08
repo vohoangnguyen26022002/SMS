@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="smscss.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--On Left----------------------------------------->
+<div class="sidenav">
+ <div class="slide_hinh">
+ </div>
+ <div class="slide_chu">
+  <div class="slideone">
+    <div class="slide_one_nd">
+    <p>BULK SMS</p>
+    </div>
+     <a href="#">Compost SMS</a>
+     <a href="#">Schedule SMS</a>
+  </div>
+  
+  <div class="slidetwo">
+     <div class="slide_two_nd">
+       <p>REPORTS & LOG</p>
+     </div>
+     <div class="slidetwo_nd_select">
+      <ul>
+        <div class="Delivery_Reports">
+       <li><i class="fa fa-motorcycle"></i>Delivery Reports</li> 
+         <div class="Delivery_menu">
+          <ul>
+           <li><a href="">Bot</a></li>
+           <li><a href="">Delivery</a></li>
+          </ul>
+         </div>
+        </div>
+      
+        <div class="massage_report">
+       <li><i class="fa fa-truck"></i>Massage Reports</li>
+          <div class="Massage_menu">
+          <ul>
+           <li><a href="">Bot</a></li>
+           <li><a href="">Delivery</a></li>
+          </ul>
+          </div>
+         </div>
+      </ul>
+     </div>
+  
+  </div>
+  </div>
+ </div>
+  
+<!--On Right---->
+ <!--Right-->
+<div class="theright">
+ <div class="therightgeneral">
+  <div class="theright_left">
+  <div class="theright_one">
+   <div class="theright_one_content">
+     <div class="theright_one_content_steps">
+      <div class="step" id="step1">
+        <button onclick="nextStep()">Enter Recipients</button>
+      </div>
+      <div class="step" id="step2">
+        <button onclick="nextStep()">Analyse</button>
+      </div>
+      <div class="step" id="step3">
+        <button onclick="nextStep()">Monitor Delivery</button> 
+      </div>
+     </div>
+   </div>
+   <div class="theright_one_space">
+    <p> ___________________________________________________________________</p>
+   </div>
+  </div>
+ <!--ID, Numbers, Seperator, Text, Choose -------->
+  <div class="theright_two">
+    <div class="theright_two_id">
+      <div class="theright_two_id_text">
+        <h3> Sender ID</h3>
+        <p>(You can change your ID after funding your acount)</p>
+      </div>
+      <div class="theright_two_id_type">
+        <li> <input type="text" placeholder="Reminder"><i class='fa fa-address-book'></i></li>
+      </div>
+    </div>
+
+
+    <div class="therigth_two_phonenumbers">
+     <h3>Phone Numbers</h3>
+     <div class="therigth_two_phonenumbers_type">
+     <li> <input type="text" placeholder="Enter phone numbers seperated by comma,space, or semicolon "></li>
+     </div>
+    </div>
+
+
+    <div class="therigth_two_phonenumbers_seperator">
+      <h3>Phone Numbers Seperator</h3>
+      <div class="therigth_two_phonenumbers_seperator_type">
+        <label>
+          <!-- Nút radio đầu tiên -->
+          <input type="radio" name="options" id="option1">
+          <span class="round-button"></span>
+          Comma or Semi-colon
+        </label>
+      
+        <label>
+          <!-- Nút radio thứ hai -->
+          <input type="radio" name="options" id="option2">
+          <span class="round-button"></span>
+          Space
+        </label>
+      </div>
+    </div>
+
+    <div class="theright_two_text_massage">
+      <h3>Text Massage</h3>
+      <p>(You can change your massage body after funding your acount)</p>
+      <div class="theright_two_text_massage_type">
+        <li> <input type="text" placeholder="Hi, This is a delivery text massage"></li>
+      </div>
+    </div>
+
+    <div class="theright_two_choose">
+      <h3>Choose a Delivery Route/Gateway</h3>
+      <li> <input type="text" placeholder="Direc-Refund Route: Get A Refund for MTN DND Numbers"></li>
+    </div>
+  </div> 
+  </div>
+ 
+
+  <div class="theright_right">
+  
+ </div>
+</div>
+</div>
+
+</body>
+</html>
+
+
